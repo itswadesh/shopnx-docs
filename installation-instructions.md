@@ -1,11 +1,11 @@
 ---
 title: Installation Instructions
-date: 2018-06-18 06:40:12
+date: 2019-10-12 06:40:12
 ---
 
 # Installation Instructions
 ::: warning COMPATIBILITY NOTE
-Arialshop v6 requires Node.js 10.x
+ShopNx v8 requires Node.js 11.x
 :::
 
 ## Softwares Required
@@ -31,7 +31,7 @@ We also need node-gyp installed. Please follow the steps to install it
 Download and unzip the file from codecanyon and navigate inside the directory
 
 ``` bash
-cd arialshop
+cd shopnx
 ```
 ### Start database
 Start mongodb in a separate shell
@@ -41,27 +41,21 @@ Run the follwoing commands from an elevated termnial/command prompt. In Windows 
   ```  
 
 ### Run the following 2 commands
-  This will install the required node dependencies and start the Server at [http://localhost:3000](http://localhost:3000) (Admin Panel), [http://localhost:3001](http://localhost:3001) (Store Front) 
+  This will install the required node dependencies and start the Server at [http://localhost:4200](http://localhost:4200) 
+
   ``` bash
-cd D:\arialshop\arialshop-admin
-yarn
-yarn dev
-  ```  
-  ``` bash
-cd D:\arialshop\arialshop-store-front
+cd D:\shopnx
 yarn
 yarn dev
   ```  
 **That's it !!!**
 
-Now open [http://localhost:3000](http://localhost:3000) (Admin Panel) and [http://localhost:3001](http://localhost:3001) (Store Front) 
+Now open [http://localhost:4200](http://localhost:4200) 
 
 
 ## Building files for production server
 
 <img src="./img/deploy.png" alt="deployment"/>
-
-Add your logo/icon(512px*512px) to static directory of store-front (This step is essential to generate icons for Progressive Web App)
 
 The follwing command will generate both client and server files inside dist directory which can be directly copied to production server
   ``` bash
@@ -73,4 +67,10 @@ Now copy the files inside **.nuxt** and **dist** directory to the production ser
 Login to cloud shell and run the following command
   ``` bash
 yarn start
+  ```  
+
+### Deploy to heroku
+Login to heroku from command prompt/terminal
+  ``` bash
+yarn live
   ```  

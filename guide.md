@@ -1,14 +1,8 @@
 ---
 title: Usage Instructions (Guide)
-date: 2018-06-18 06:40:12
+date: 2019-10-12 06:40:12
 ---
 ## Home page
-The home page of our web app. It contains
-- Jumbo sliders with images
-- Banners for shop promotion
-- Some features products
-
-## Products page
  This is the products page of our Javascript e-commerce store. Here we get
 
   - List of all products
