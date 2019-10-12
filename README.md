@@ -13,6 +13,9 @@ features:
 footer: Codecanyon Licensed | Copyright © 2018-present Swadesh Behera
 ---
 
+## <div style="text-align:center"> Demo: <a href="http://shopnx5.herokuapp.com/" target="blank">http://shopnx5.herokuapp.com/</a></div>
+
+
 ## About ShopNx
 
 ShopNx is a Javascript ecommerce software that focus mainly on speed and ease of use. It is built over the cutting edge technology and purely modular code.
